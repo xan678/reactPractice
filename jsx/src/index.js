@@ -28,12 +28,31 @@ function App() {
 
     //Props system below
     // We are not allowed to print objects but we are allowed to send objects as props like this -> {{objectName}}
-    const inputType = "number";
-    const minValue = 5;
-    return <div>
-        <h3>Enter a number greater than {minValue} :</h3>    
-        <input style={{border : '3px solid red'}} type={inputType} min={minValue}/>
-    </div> 
+    // const inputType = "number";
+    // const minValue = 5;
+    // return <div>
+    //     <h3>Enter a number greater than {minValue} :</h3>    
+    //     <input style={{border : '3px solid red'}} type={inputType} min={minValue}/>
+    // </div> 
+
+    // return <div>
+    //     <input spellCheck = {false}/>
+    // </div>
+
+    // return <div className='myclass'>
+    //     <h1>My name is Ankush Ojha</h1>
+    // </div>
+
+    //Adding inline styles
+    //We provide style object as a prop
+
+    // return <div style={{border : '1px solid blue'}}>
+    //     <h1>My name is Ankush Ojha</h1>
+    // </div>
+
+    return (
+        <input placeholder='hi there'></input>
+    );
 }
 
 //Show the component on the screen
