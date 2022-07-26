@@ -11,7 +11,8 @@ class App extends React.Component{
 
         const response = await unsplash.get("/search/photos", {
             params : {
-                query : term
+                query : term,
+                per_page : 50
             }
         })//.then((response) =>{ --> This is using JS promises, but always use async/await to do stuff
         //     console.log(response.data.results);
