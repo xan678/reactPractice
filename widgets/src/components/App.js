@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import Translate from './Translate';
 import Accordion from './Accordion';
 import Search from './Search';
 import Dropdown from './Dropdown';
@@ -49,13 +50,19 @@ const App = () => {
     //     </div>
     // );
 
-    return (
+    // return (
+    //     <div>
+    //         <Dropdown 
+    //             options = {options}
+    //             selected = {selected}
+    //             onSelectedChange = {setSelected}
+    //         />
+    //     </div>
+    // );
+
+    return(
         <div>
-            <Dropdown 
-                options = {options}
-                selected = {selected}
-                onSelectedChange = {setSelected}
-            />
+            <Translate/>
         </div>
     );
 
