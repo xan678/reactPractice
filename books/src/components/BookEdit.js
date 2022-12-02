@@ -1,12 +1,14 @@
-import { useState } from "react";
+import { useState, useContext } from "react";
+import BooksContext from "../context/books";
 
-const BookEdit = ({book, onEdit, handleEdit}) => {
+const BookEdit = ({book, handleEdit}) => {
 
     const [title, setTitle] = useState(book.title);
+    const {editBookById} = useContext(BooksContext); 
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        onEdit(book.id, title);
+        editBookById(book.id, title);
         handleEdit();
         console.log("New Title is ", title);
     }
