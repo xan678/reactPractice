@@ -10,21 +10,21 @@ const SortableTable = ({config, data}) => {
 
     const handleClick = (label) =>{
 
-        if(sortBy && label != sortBy){
+        if(sortBy && label !== sortBy){
             setSortOrder('asc');
             setSortBy(label);
             return;
         }
 
-        if(sortOrder == null) {
+        if(sortOrder === null) {
             setSortOrder('asc');
             setSortBy(label);
         }
-        else if(sortOrder == 'asc') {
+        else if(sortOrder === 'asc') {
             setSortOrder('desc');
             setSortBy(label);
         }
-        else if(sortOrder == 'desc') {
+        else if(sortOrder === 'desc') {
             setSortOrder(null);
             setSortBy(null);
         }
@@ -73,18 +73,18 @@ const SortableTable = ({config, data}) => {
 }
 
 const getIcons = (label, sortBy, sortOrder) => {
-    if(label != sortBy || sortOrder == null){
+    if(label !== sortBy || sortOrder === null){
         return <div>
             <GoArrowSmallUp/>
             <GoArrowSmallDown/>
         </div>
     }
-    if(label == sortBy && sortOrder == 'asc'){
+    if(label === sortBy && sortOrder === 'asc'){
         return <div>
         <GoArrowSmallUp/>
         </div>
     }
-    if(label == sortBy && sortOrder == 'desc'){
+    if(label === sortBy && sortOrder === 'desc'){
         return <div>
             <GoArrowSmallDown/>
         </div>
