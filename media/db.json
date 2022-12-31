@@ -2,7 +2,7 @@
   "users": [
     {
       "name": "Velma Towne",
-      "id": 2
+      "id": 1
     },
     {
       "name": "Chester Medhurst",
@@ -15,12 +15,170 @@
     {
       "name": "Ms. Kirk Cummerata V",
       "id": 5
-    },
-    {
-      "name": "Mrs. Wade Towne",
-      "id": 6
     }
   ],
-  "albums": [],
-  "photos": []
+  "albums": [
+    {
+      "title": "Intelligent Plastic Car",
+      "userId": 1,
+      "id": 11
+    },
+    {
+      "title": "Elegant Frozen Chips",
+      "userId": 1,
+      "id": 12
+    },
+    {
+      "title": "Elegant Metal Sausages",
+      "userId": 4,
+      "id": 15
+    },
+    {
+      "title": "Generic Granite Fish",
+      "userId": 5,
+      "id": 16
+    },
+    {
+      "title": "Refined Granite Shirt",
+      "userId": 3,
+      "id": 20
+    },
+    {
+      "title": "Ergonomic Soft Car",
+      "userId": 4,
+      "id": 23
+    },
+    {
+      "title": "Incredible Bronze Salad",
+      "userId": 1,
+      "id": 24
+    },
+    {
+      "title": "Modern Steel Soap",
+      "userId": 3,
+      "id": 25
+    }
+  ],
+  "photos": [
+    {
+      "albumId": 11,
+      "url": "https://loremflickr.com/150/150/abstract?lock=77132",
+      "id": 2
+    },
+    {
+      "albumId": 12,
+      "url": "https://loremflickr.com/150/150/abstract?lock=5429",
+      "id": 3
+    },
+    {
+      "albumId": 12,
+      "url": "https://loremflickr.com/150/150/abstract?lock=33183",
+      "id": 4
+    },
+    {
+      "albumId": 12,
+      "url": "https://loremflickr.com/150/150/abstract?lock=14488",
+      "id": 5
+    },
+    {
+      "albumId": 24,
+      "url": "https://loremflickr.com/150/150/abstract?lock=47208",
+      "id": 6
+    },
+    {
+      "albumId": 24,
+      "url": "https://loremflickr.com/150/150/abstract?lock=84151",
+      "id": 7
+    },
+    {
+      "albumId": 24,
+      "url": "https://loremflickr.com/150/150/abstract?lock=51896",
+      "id": 9
+    },
+    {
+      "albumId": 20,
+      "url": "https://loremflickr.com/150/150/abstract?lock=33767",
+      "id": 10
+    },
+    {
+      "albumId": 25,
+      "url": "https://loremflickr.com/150/150/abstract?lock=1475",
+      "id": 11
+    },
+    {
+      "albumId": 25,
+      "url": "https://loremflickr.com/150/150/abstract?lock=78333",
+      "id": 12
+    },
+    {
+      "albumId": 25,
+      "url": "https://loremflickr.com/150/150/abstract?lock=54153",
+      "id": 13
+    },
+    {
+      "albumId": 15,
+      "url": "https://loremflickr.com/150/150/abstract?lock=22155",
+      "id": 14
+    },
+    {
+      "albumId": 15,
+      "url": "https://loremflickr.com/150/150/abstract?lock=17384",
+      "id": 15
+    },
+    {
+      "albumId": 23,
+      "url": "https://loremflickr.com/150/150/abstract?lock=65682",
+      "id": 16
+    },
+    {
+      "albumId": 23,
+      "url": "https://loremflickr.com/150/150/abstract?lock=69758",
+      "id": 17
+    },
+    {
+      "albumId": 23,
+      "url": "https://loremflickr.com/150/150/abstract?lock=55669",
+      "id": 18
+    },
+    {
+      "albumId": 23,
+      "url": "https://loremflickr.com/150/150/abstract?lock=84579",
+      "id": 19
+    },
+    {
+      "albumId": 23,
+      "url": "https://loremflickr.com/150/150/abstract?lock=29146",
+      "id": 20
+    },
+    {
+      "albumId": 16,
+      "url": "https://loremflickr.com/150/150/abstract?lock=27820",
+      "id": 21
+    },
+    {
+      "albumId": 16,
+      "url": "https://loremflickr.com/150/150/abstract?lock=46216",
+      "id": 22
+    },
+    {
+      "albumId": 16,
+      "url": "https://loremflickr.com/150/150/abstract?lock=74151",
+      "id": 23
+    },
+    {
+      "albumId": 16,
+      "url": "https://loremflickr.com/150/150/abstract?lock=5246",
+      "id": 24
+    },
+    {
+      "albumId": 11,
+      "url": "https://loremflickr.com/150/150/abstract?lock=45444",
+      "id": 25
+    },
+    {
+      "albumId": 11,
+      "url": "https://loremflickr.com/150/150/abstract?lock=54488",
+      "id": 26
+    }
+  ]
 }
