@@ -1,0 +1,26 @@
+{
+  "users": [
+    {
+      "name": "Velma Towne",
+      "id": 2
+    },
+    {
+      "name": "Chester Medhurst",
+      "id": 3
+    },
+    {
+      "name": "Sally Konopelski",
+      "id": 4
+    },
+    {
+      "name": "Ms. Kirk Cummerata V",
+      "id": 5
+    },
+    {
+      "name": "Mrs. Wade Towne",
+      "id": 6
+    }
+  ],
+  "albums": [],
+  "photos": []
+}
